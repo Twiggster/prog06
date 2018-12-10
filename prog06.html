@@ -145,14 +145,14 @@
                 .addClass("form-row")
                 .attr("id", "form-row-" + rowCount)
 
-            row.append(genField("Given Name", "fname" + rowCount, "text", "Jane"))
-            row.append(genField("Surname", "sname" + rowCount, "text", "Doe"))
+            row.append(genField("Given Name", "fname" + rowCount, "text", "Sand"))
+            row.append(genField("Surname", "sname" + rowCount, "text", "Man"))
 
             $("<div></div>").addClass("vert-divider").appendTo(row)
 
-            row.append(genField("Solar Birth Day", "birthday" + rowCount, "number", "01"))
-            row.append(genField("Solar Birth Month", "birthmonth" + rowCount, "number", "01"))
-            row.append(genField("Solar Birth Year", "birthyear" + rowCount, "number", "1970"))
+            row.append(genField("Solar Birth Day", "birthday" + rowCount, "number", "10"))
+            row.append(genField("Solar Birth Month", "birthmonth" + rowCount, "number", "06"))
+            row.append(genField("Solar Birth Year", "birthyear" + rowCount, "number", "1997"))
 
             row.append(genSelect("Country", "country" + rowCount, [
                 { value: "USA", text: "USA" },
